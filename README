@@ -1,0 +1,27 @@
+# BirdExplorer
+
+BirdExplorer est une application web dédiée à l'observation des oiseaux. Elle permet aux utilisateurs de parcourir une liste d'oiseaux, de rechercher des espèces spécifiques, et de visualiser des détails complets pour chaque oiseau, y compris une carte interactive montrant les zones d'observation possibles.
+
+## Fonctionnalités
+
+### Page d'accueil : Liste des Oiseaux
+
+La page ffiche une liste de tous les oiseaux disponibles dans la base de données.
+Elle inclut une barre de recherche pour filtrer les oiseaux par nom commun ou nom scientifique.
+
+### Page de Détails : Détails d'un Oiseau
+
+Ici s'affiche les informations détaillées sur un oiseau sélectionné, telles que son nom commun, son nom scientifique, sa famille, et d'autres détails.
+La page intègre une carte interactive montrant les zones d'observation potentielles de l'oiseau.
+
+## Technologies Utilisées
+
+- Frontend : React avec TypeScript
+  - Routing : React Router pour gérer la navigation entre les pages.
+  - API Mapping : Intégration avec des services de cartographie comme Leaflet ou Google Maps (a définir) pour afficher les zones d'observation.
+  - Styling : SCSS et/ou un framework CSS comme Bootstrap ou TailwindCSS pour un design réactif et moderne.
+- Backend : Node.js avec Express
+  - Base de données : PostgreSQL pour stocker les informations sur les oiseaux.
+  - ORM : Sequelize pour interagir avec la base de données.
+  - API : Points de terminaison RESTful pour récupérer les données des oiseaux.
+- Conteneurisation : Docker
