@@ -1,0 +1,17 @@
+bird-explorer-backend/
+├── node_modules/
+├── controllers/
+│   └── birdController.js
+├── models/
+│   └── birdModel.js
+├── routes/
+│   └── birdRoutes.js
+├── services/
+│   └── birdService.js
+├── databse
+│   └── client.js
+├── index.js
+├── package.json
+├── package-lock.json
+└── .env
+└── .env.example
